@@ -40,7 +40,7 @@ function loginUserSuccess(dispatch, user) {
     type: LOGIN_USER_SUCCESS,
     payload: user,
   })
-  Actions.employeeList()
+  Actions.main()
 }
 
 function loginUserFail(dispatch, err) {
